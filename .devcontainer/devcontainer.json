@@ -1,0 +1,14 @@
+ { 
+    "name": "node js 12.8.1 ENV",
+    "dockerFile": "Dockerfile",
+    "appPort": [5000],
+    "settings": {
+        "workbench.colorTheme": "Atom One Light",
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+		"esbenp.prettier-vscode",
+		"akamud.vscode-theme-onelight",
+		"rvest.vs-code-prettier-eslint",
+	]
+    }
